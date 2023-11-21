@@ -20,7 +20,6 @@ namespace mybooks.Data
                         DateAdded = DateTime.Now,
                         DateRead = DateTime.Now.AddDays(-1),
                         Rate = 4,
-                        Author = "Maga",
                         CoverUrl = "...",
                         Genre = "Drama"
                     },
@@ -32,13 +31,12 @@ namespace mybooks.Data
                         DateAdded = DateTime.Now,
                         DateRead = DateTime.Now.AddDays(-3),
                         Rate = 4,
-                        Author = "Maga",
                         CoverUrl = "...sad",
                         Genre = "Thriller"
                     });
                 }
 
-                context.SaveChanges();
+                //context.SaveChanges();
             }
         }
     }
